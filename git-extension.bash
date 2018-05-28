@@ -1,3 +1,8 @@
+# edit extension file
+alias editext='vi /etc/git-extension.bash'
+# sync new extensions file with repository
+alias cpext='cp /etc/git-extension.bash c:/Users/ronanliu/zerologixProjects/MyBashExtensions'
+
 # directly enter projects folder
 alias tocrm='cd c:/Users/ronanliu/zerologixProjects/project_crm'
 
@@ -11,3 +16,5 @@ alias gitaa='git add .'
 alias gitc='git commit -m'
 # git push to source's target branch
 alias gitpstb='git push source'
+# git status
+alias gits='git status'
