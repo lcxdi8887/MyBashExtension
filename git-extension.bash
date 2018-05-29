@@ -2,19 +2,28 @@
 alias editext='vi /etc/git-extension.bash'
 # sync new extensions file with repository
 alias cpext='cp /etc/git-extension.bash c:/Users/ronanliu/zerologixProjects/MyBashExtensions'
+# clear screen
+alias cls='clear'
+
 
 # directly enter projects folder
 alias tocrm='cd c:/Users/ronanliu/zerologixProjects/project_crm'
 
 
 # git extensions
+# git diff
+alias gd='git diff'
 # pull source dev to local
-alias gitplsd='git pull source dev'
+alias gplsd='git pull source dev'
 # git add all
-alias gitaa='git add .'
+alias gaa='git add .'
 # git commit with comment
-alias gitc='git commit -m'
+alias gc='git commit -m'
 # git push to source's target branch
-alias gitpstb='git push source'
+alias gptb='git push source'
 # git status
-alias gits='git status'
+alias gst='git status'
+# git checkout master
+alias gctm='git checkout master'
+# git checkout -b
+alias gckb='git checkout -b'
