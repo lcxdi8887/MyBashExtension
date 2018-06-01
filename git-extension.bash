@@ -24,6 +24,8 @@ alias gptb='git push source'
 # git status
 alias gst='git status'
 # git checkout master
-alias gctm='git checkout master'
+alias gckm='git checkout master'
 # git checkout -b
 alias gckb='git checkout -b'
+# git checkout
+alias gck='git checkout'
